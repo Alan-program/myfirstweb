@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: rgba(21, 14, 39, 0.05);
+  height: 5600px;
+  cursor: url('Cursor/Auto.svg'),auto;
+  
+}
+p {
+  font-family: Saira Condensed ,Arial;
+  font-size: 18px;
+  color: rgba(21, 14, 39, 0.75);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.skills-part, .design-part, .photograph-part, .music-part{
+  height: 1024px;
+}
+
+.white-line{
+  margin-top: 112px;
+}

@@ -1,0 +1,87 @@
+.music-text{
+  position: absolute;
+  width: 241px;
+  height: 116px;
+  left: 176px;
+  top: 4152px;
+  
+  /* H1 */
+  
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 101px;
+  line-height: 116px;
+  /* identical to box height, or 115% */
+  
+  text-transform: uppercase;
+  
+  /* Black */
+  
+  color: #150E27;
+  
+}
+
+.music-frame-1{
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  left: 224px;
+  top: 4340px;
+}
+
+.music-frame-2{
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  left: 776px;
+  top: 4592px;
+}
+
+.music-seemore-button{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px 48px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 252px;
+  height: 96px;
+  left: 320px;
+  top: 4916px;
+
+  transition: background-color 0.3s;
+  
+  /* Black 75 */
+  
+  background: rgba(21, 14, 39, 0.75);
+  box-shadow: 0px 43px 72px rgba(0, 0, 0, 0.14), 0px 21.521px 36.0352px rgba(0, 0, 0, 0.106447), 0px 12.9632px 21.7059px rgba(0, 0, 0, 0.0912224), 0px 8.30752px 13.9103px rgba(0, 0, 0, 0.0799253), 0px 5.38427px 9.01552px rgba(0, 0, 0, 0.07), 0px 3.38934px 5.67517px rgba(0, 0, 0, 0.0600747), 0px 1.94738px 3.26074px rgba(0, 0, 0, 0.0487776), 0px 0.857094px 1.43513px rgba(0, 0, 0, 0.0335534);
+  border-radius: 100px;
+  border-width: 0;
+
+  /* see more */
+
+  font-family: Saira Condensed,Imapct;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 48px;
+  /* identical to box height, or 112% */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.music-seemore-button:hover{
+  background: rgba(21, 14, 39, 0.85);
+  cursor: url('Cursor/Pointer.svg'),pointer;
+}

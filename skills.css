@@ -1,0 +1,271 @@
+.mySkills-text{
+  /* My Skills */
+
+
+  position: absolute;
+  width: 389px;
+  height: 116px;
+  left: 176px;
+  top: 1080px;
+
+  /* H1 */
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 101px;
+  line-height: 116px;
+  /* identical to box height, or 115% */
+
+  text-transform: uppercase;
+
+  color: #150E27;
+}
+
+.designDevelop{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 448px;
+
+  position: absolute;
+  width: 775px;
+  height: 64px;
+  left: 240px;
+  top: 1284px;
+}
+
+.design-skill{
+  /* Design */
+
+
+  width: 147px;
+  height: 64px;
+
+  /* H3 */
+
+  font-family: Anton, Impact;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 64px;
+  /* identical to box height, or 112% */
+
+  text-transform: uppercase;
+
+  /* Black 85 */
+
+  color: rgba(21, 14, 39, 0.85);
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.develop-skill{
+  /* Develop */
+
+
+  width: 180px;
+  height: 64px;
+
+  /* H3 */
+
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 64px;
+  /* identical to box height, or 112% */
+
+  text-transform: uppercase;
+
+  /* Black 85 */
+
+  color: rgba(21, 14, 39, 0.85);
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Design-tool{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 108px;
+  
+  position: absolute;
+  width: 400px;
+  height: 475.97px;
+  margin-left: 240px;
+  top: 1412px;
+}
+
+.Develop-tool{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  
+  position: absolute;
+  width: 400px;
+  height: 544px;
+  left: 835px;
+  top: 1396px;
+}
+
+.tool{
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+
+  /* Black 75 */
+
+  color: rgba(21, 14, 39, 0.75);
+
+}
+
+.AI-layout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+
+  width: 374px;
+  height: 85.8px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.PS-layout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+
+  width: 383px;
+  height: 86.17px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.AI-photo, .PS-photo, .Figma-photo, .Cpp-photo, .Java-photo, .Html-photo, .Css-photo{
+  height: 88px;
+  width: 88px;
+}
+
+.Figma-layout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+
+  width: 237px;
+  height: 88px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.Cpp-layout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+  
+  width: 198px;
+  height: 88px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Java-layout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+  
+  width: 228px;
+  height: 88px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Html-layout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+  
+  width: 226px;
+  height: 88px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.Css-layout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 72px;
+  
+  width: 205px;
+  height: 88px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}

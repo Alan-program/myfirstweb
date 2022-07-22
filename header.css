@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-color: rgba(21, 14, 39, 0.1);
+}
+
+.about-button, .skills-button, .works-button, .contactme-button {
+  flex: 1;
+  border-width: 0;
+  transition: background-color 0.3s;
+  font-family: Anton, Impact;
+  font-size: 24px;
+  color: rgb(21, 14, 39);
+  padding: 0;
+  cursor: url('Cursor/Pointer.svg'),pointer;
+}
+
+.middle-header{
+  height: 64px;
+  width: 288px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-button{
+  height: 64px;
+  border: 0;
+  padding: 0;
+  cursor: url('Cursor/Pointer.svg'),pointer;
+}
+.logo-photo{
+  height: 64px;
+}
+
+.about-button:hover, .skills-button:hover, .works-button:hover, .contactme-button:hover {
+  background-color:rgba(21, 14, 39, 0.1);
+}
+
+
+
+
+

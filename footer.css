@@ -1,0 +1,242 @@
+.footer-part-up{
+  display: flex;
+  flex-direction: row;
+  height: 504px;
+}
+.footer-part-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 176px;
+  gap: 48px;
+  
+  position: absolute;
+  /* width: 729px; */
+  height: 376px;
+  left: 0px;
+  top: 5120px;
+  
+  /* Black */
+  
+  background: #150E27;
+}
+
+.footer-part-right{
+  position: absolute;
+  width: 359px;
+  height: 504px;
+  left: 1081px;
+  top: 5120px;
+  
+  /* Black */
+  
+  background: #150E27;
+}
+
+.footer-header{
+  width: 728px;
+  height: 48px;
+  
+  font-family: Anton,Imapct;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 48px;
+
+  /* White */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-text{
+  width: 742px;
+  height: 43px;
+  
+  /* Paragraph */
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  
+  
+  /* White */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer-gmail{
+  width: 222px;
+  height: 32px;
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  
+  color: #AE8DFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.footer-contactme-button{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px 64px;
+  gap: 10px;
+  
+  width: 326px;
+  height: 96px;
+  
+  /* Gradient */
+  
+  background: linear-gradient(90deg, #830BE3 13.12%, #4801FA 85%);
+  box-shadow: 0px 43px 72px rgba(0, 0, 0, 0.14), 0px 21.521px 36.0352px rgba(0, 0, 0, 0.106447), 0px 12.9632px 21.7059px rgba(0, 0, 0, 0.0912224), 0px 8.30752px 13.9103px rgba(0, 0, 0, 0.0799253), 0px 5.38427px 9.01552px rgba(0, 0, 0, 0.07), 0px 3.38934px 5.67517px rgba(0, 0, 0, 0.0600747), 0px 1.94738px 3.26074px rgba(0, 0, 0, 0.0487776), 0px 0.857094px 1.43513px rgba(0, 0, 0, 0.0335534);
+  border-width: 0;
+  border-radius: 100px;
+  transition: opacity 0.3s;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+
+/* Contact me */
+
+/* H4 */
+
+font-family: Anton,Impact;
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 48px;
+/* identical to box height, or 112% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+white-space: nowrap;
+
+cursor: url('Cursor/Pointer.svg'),pointer;
+}
+
+.footer-contactme-button:hover{
+  opacity: 0.8;
+}
+
+.goup-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 74px 31px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  left: 67px;
+  top: 154px;
+  
+  /* White */
+  
+  background-color: #FFFFFF;
+  border-radius: 56px;
+  border-width: 0;
+  transition: background-color 0.3s;
+
+  /* go up */
+
+  font-family: Saira Condensed,Imapct;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 48px;
+  /* identical to box height, or 112% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  cursor: url('Cursor/Pointer.svg'),pointer;
+}
+
+.goup-button:hover{
+  background-color: lightgray;
+}
+
+.footer-part-bottom{
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  left: 0px;
+  top: 5624px;
+
+  background: #FFFFFF;
+}
+
+.footer-contact-info{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  
+  position: absolute;
+  width: 172px;
+  height: 36px;
+  left: 634px;
+  top: 12px;
+}
+
+.facebook-icon{
+  border-radius: 10px;
+}
+
+.facebook-button, .instagram-button, .github-button{
+  border: 0;
+  padding: 0;
+  background-color: white;
+  cursor: url('Cursor/Pointer.svg'),pointer;
+}

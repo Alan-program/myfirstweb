@@ -1,0 +1,33 @@
+.heroareas{
+  height: 944px;
+  display: flex;
+  flex-direction: row;
+}
+
+.heroareas-info{
+  padding-top: 128px;
+  padding-left: 176px;
+  width: 678px;
+}
+
+.whoamI{
+  color: rgb(21, 14, 39);
+  font-family: Anton, Impact;
+  font-size: 76px;
+  margin-bottom: 16px;
+}
+
+.heroareas-logo{
+  padding-top: 380px;
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+  align-items:flex-end;
+  padding-right: 176px;
+}
+
+.mylogo{
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
